@@ -1,10 +1,10 @@
-.choosColor{
+.choosColorAndShape{
   margin: 1em;
   height: 50px;
   width: 50px;
 
 }
-.colorPicker{
+.choosParams{
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
