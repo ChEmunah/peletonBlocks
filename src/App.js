@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -21,7 +20,7 @@ class App extends Component {
     let colors = { blue: "#1653b7", green: "#22821b", red: "#3a3838", yello: "#eef209" };
     let shapes = ["triangle", "square", "halfCircle", "rectangle"];
     return (
-      <div className="App">
+      <div className="App" dir = "rtl">
         {/* choos color */}
         <h1>בחר צבע</h1>
         <div className={"choosParams"}>
@@ -53,6 +52,7 @@ class App extends Component {
           })
           }
         </div>
+        <button>הבא</button>
 
 
 
